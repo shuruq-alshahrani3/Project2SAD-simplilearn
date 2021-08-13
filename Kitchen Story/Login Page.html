@@ -1,0 +1,69 @@
+<!DOCTYPE html>    
+<html lang="en">    
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />    
+    <title>Login Form</title>    
+     
+<style>
+body{  
+		background-image: url('./bakery/ss.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100% 100%;
+}
+
+.login{  
+        width: 382px;  
+        overflow: hidden;    
+        padding: 50px;  
+		text-align: center;
+		margin: auto;  
+		font-size: 15px;
+		color: #987554;
+        background: #3f2415;  
+        border-radius: 10px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: white; 
+    padding: 20px;  
+	font-family: 'Brush Script MT', cursive;
+	font-size: 80px;
+}  
+
+</style>
+
+</head>
+<body class="container">
+
+<h2> Login </h2><br>    
+    <div class="login">    
+    <form id="login" method="get" action="index.html">    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>     
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br>    
+        <button class="btn btn-primary">Login</button><b>
+		<button class="btn btn-warning">Reset</button>     
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>
+		      
+        <br><br>    
+        Forgot <a href="#">Password</a>    
+    </form>
+
+
+</body>
+</html> 
